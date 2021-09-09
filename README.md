@@ -19,7 +19,9 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *Instead of running it locally, we could also deploy the ArcGIS Experience Builder App with our customised widgets on ArcGIS Online. Though there is no official documents regarding how to do this at the moment, I found a creative trick to deploy it, please watch this video I made about how to deploy customised widgets of ArcGIS Experience Builder on ArcGIS Online/Portal: </br> https://www.youtube.com/watch?v=fDN7rr5259w*
 
 ### How to install and use GeoAR-B2C-Client
-*As the GeoAR-B2C-Client is developed by pure HTML5 and Javascript, so no installation is required. What you would need to do is Dir to GeoAR-B2C-Client Root folder like ./GeoAR-B2C-Client/, and then just run https server in it to host it e.g. **```python -m SimpleHTTPServer 8001```** that's it. You could also use IIS or other Html facilities to host it.* </br>
+*As the GeoAR-B2C-Client is developed by pure HTML5 and Javascript, so no installation is required. What you would need to do is download it and Dir to GeoAR-B2C-Client Root folder like ./GeoAR-B2C-Client/, and then just run https server in it to host it e.g. **```python -m SimpleHTTPServer 8001```** that's it. You could also use IIS or other Html facilities to host it.* </br>
+
+*By the way, as the folder contains 3D model assets which are big, so when you git it, it takes a while...*
 
 *Inside GeoAR-B2C-Client folder, index.html is the main entry for the App, so when you run the program (or when you host GeoAR-B2C-Client on cloud) you should use like https://127.0.0.1:8001/index.html* </br>
 
