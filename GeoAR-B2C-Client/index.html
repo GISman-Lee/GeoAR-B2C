@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GeoAR-Events-Client</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./ui/mainpage/css/navystyle.css" />
+
+    <!-- Bootstrap, JQ & libraries JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/merge-images"></script>
+
+    <style>
+        .mybtn {
+            background-color: SkyBlue;
+            border: none;
+            color: white;
+            padding: 12px 16px; 
+            font-size: 16px;
+            cursor: pointer;
+            float: left;
+            z-index: 7;
+            position: absolute;
+        }
+
+        /* Darker background on mouse-over */
+        .mybtn:hover {
+            background-color: LightBlue;
+        }
+    </style>
+
+</head>
+
+<body style="margin: 0; overflow: hidden;">
+
+    <div class="container">
+        <div class="row">
+            <nav id="calibre-nav" class="navbar navbar-light"
+                style="background-color: rgb(71, 141, 206); position:relative; height:47px; width: 100%;"><p id="title" class="text-white font-weight-bold" style="padding-left: 38%;"></p></nav>
+        </div>
+            <div class="row" >
+                <button class="mybtn" id="plus" style="margin-top: 35px; margin-left: 15px;"><i class="fa fa-plus"></i></button>
+                <button hidden class="mybtn" id="sign" style="margin-left: 66px; margin-top: 35px; display:none;"><i class="fa fa-anchor"></i></button> <!-- unused button test only-->
+                <button hidden class="mybtn" id="swap" style="margin-left: 66px; margin-top: 35px; display:none"><i class="fa fa-exchange"></i></button><!-- unused button test only-->
+            </div>
+            <div class="row"  ><button class="mybtn" id="minus"  style="margin-top: 90px; margin-left: 15px;"><i class="fa fa-minus"></i></button></div>
+            <div class="row" ><button class="mybtn" id="recycle" style="margin-top: 145px; margin-left: 15px;"><i class="fa fa-recycle"></i></button></div> <!-- fa-recycle-->
+        <div class="row">
+            <div class="iframe-container" style="z-index: 3;">
+                <iframe id="myFrame1" src="./ar.html" frameborder="2" loading="lazy" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <button id="snap-img" type="button" class="btn btn-info btn-lg btn-block" style="margin-top: 2px;">click to take photo</button>
+            <a href="#" id="download-link" style="margin-top: 5px; margin-bottom: 5px; text-align: center;">DOWNLOAD
+                PHOTO</a>
+
+            <div class="card" style="height:auto;width:100%;">
+                <div class="card-header bg-secondary text-white">
+                    ABOUT ME
+                </div>
+                <div class="card-body">
+                    <p id="infob">Hi, I am Miles,
+                    <a href="https://www.youtube.com/channel/UCdRN0JSG8x51sLuiYPn0ieQ" class="text-primary font-weight-bold">here is my Channel~~</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/snap.js"></script>
+</body>
+
+</html>

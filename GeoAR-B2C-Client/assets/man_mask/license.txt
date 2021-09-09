@@ -1,0 +1,11 @@
+Model Information:
+* title:	BOY WITH MASK (COVID-19)
+* source:	https://sketchfab.com/3d-models/boy-with-mask-covid-19-fd2e32e03f2e4857a3b7e7e1dee86196
+* author:	mazmurbryan (https://sketchfab.com/mazmurbryan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "BOY WITH MASK (COVID-19)" (https://sketchfab.com/3d-models/boy-with-mask-covid-19-fd2e32e03f2e4857a3b7e7e1dee86196) by mazmurbryan (https://sketchfab.com/mazmurbryan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

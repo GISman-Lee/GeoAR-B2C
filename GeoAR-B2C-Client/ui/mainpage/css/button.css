@@ -1,0 +1,16 @@
+.mybtn {
+    background-color: SkyBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left; 
+    z-index: 7; 
+    position:absolute;
+  }
+  
+  /* Darker background on mouse-over */
+  .mybtn:hover {
+    background-color: LightBlue;
+  }
