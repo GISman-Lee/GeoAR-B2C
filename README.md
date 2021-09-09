@@ -22,3 +22,5 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *As the GeoAR-B2C-Client is developed by pure HTML5 and Javascript, so no installation is required. What you would need to do is Dir to GeoAR-B2C-Client Root folder like ./GeoAR-B2C-Client/, and then just run https server in it to host it e.g. **```python -m SimpleHTTPServer 8001```** that's it. You could also use IIS or other Html facilities to host it.* </br>
 
 *Inside GeoAR-B2C-Client folder, index.html is the main entry for the App, so when you run the program (or when you host GeoAR-B2C-Client on cloud) you should use like https://127.0.0.1:8001/index.html* </br>
+
+*When you use the App, please make sure that you are outdoor, your mobile phone/Ipad's GPS is turn on and your camera is allowed to be used by permission settings.*
