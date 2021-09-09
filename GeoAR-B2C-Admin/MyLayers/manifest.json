@@ -1,0 +1,19 @@
+{
+    "name": "MyLayers",
+    "type": "widget",
+    "version": "1.3.0",
+    "dependency": "jimu-arcgis",
+    "exbVersion": "1.3.0",
+    "author": "Miles Lee",
+    "description": "Establishing the Widget",
+    "copyright": "",
+    "license": "",
+    "properties": {},
+    "translatedLocales": [
+        "en"
+    ],
+    "defaultSize": {
+        "width": 800,
+        "height": 500
+    }
+}

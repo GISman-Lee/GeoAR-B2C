@@ -1,0 +1,23 @@
+/* style.css */
+#list-1st-layer {
+  padding-left: 2px;
+  list-style: none;  /* No Bullet Point Style for collapse group */
+}
+
+#list-2nd-layer {
+  padding-left: 45px;
+}
+
+.expandIcon {
+  cursor: pointer;
+}
+
+#layerlink {
+  padding-left: 4px;
+  color: black;
+}
+
+#widget-frame {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
