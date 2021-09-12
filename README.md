@@ -25,4 +25,6 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 
 *Inside GeoAR-B2C-Client folder, index.html is the main entry for the App, so when you run the program (or when you host GeoAR-B2C-Client on cloud) you should use like https://127.0.0.1:8001/index.html* </br>
 
-*When you use the App, please make sure that you are outdoor, your mobile phone/Ipad's GPS is turn on and your camera is allowed to be used by permission settings.*
+*When you use the App, please make sure that you are outdoor, your mobile phone/Ipad's GPS is turn on and your camera is allowed to be used by permission settings.* </br>
+
+*In ar.html, the attributes in <a-camera>: gps-camera="gpsMinDistance: 10; gpsTimeInterval: 6000; maxDistance: 65;" is used to stablise the GPS, depending on your location's datum/projection system as well as your mobile phone GPS's senstivie(accuracy) you would need to adjust it for better result (gpsMinDistance, maxDistance unit in m, gpsTimeInterval unit in msec)*
