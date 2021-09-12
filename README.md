@@ -14,6 +14,7 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *6. Create a project or choose a template (see step 2's link), then on your left-hand side, you could see these two customised widgets are lying on the panel, then you could either drag or add these two customised widgets to your right-hand side content area to use them.* </br>
 *7. Please pay attention that you also need to set the **Map Component** for both of the widgets on the right-hand side setting panel before you launch and run the app.* </br>
 *8. When run and use the widgets, please make sure that use MyLayers Widget first and tick the Event_Layers before you use MyEvents Widget* </br>
+*9. If you feel it too complex to integrate these two customised widgets into ArcGIS Experience Builder Developer Edition, you could just download **GeoAR-B2C-Admin-Built-Compress.zip** and upzip it, then put it under any HTTP hosting, or run SimpleHTTPServer locally e.g. **```python -m SimpleHTTPServer 8001```*** </br>
 
 ### How to deploy the contents of GeoAR-B2C-Admin on ArcGIS Online Experience Builder
 *Instead of running it locally, we could also deploy the ArcGIS Experience Builder App with our customised widgets on ArcGIS Online. Though there is no official documents regarding how to do this at the moment, I found a creative trick to deploy it, please watch this video I made about how to deploy customised widgets of ArcGIS Experience Builder on ArcGIS Online/Portal: </br> https://www.youtube.com/watch?v=fDN7rr5259w*
