@@ -1,4 +1,3 @@
-//place3.js is derived from place.js, so refered to place.js to see the original settings
 window.onload = () => {
     let method = 'dynamic';
 
@@ -49,7 +48,7 @@ function staticLoadPlaces() {
             name: 'Optus',
             location: {
                 lat: -33.784317,
-                lng: 151.122608,
+                lng: 151.122608
             },
             handlerName: "h4"
         }
@@ -57,7 +56,7 @@ function staticLoadPlaces() {
 }
 
 // getting places from REST APIs
-function dynamicLoadPlaces(position) {
+var dynamicLoadPlaces = function(position) {
 
     //let endpoint = "https://services8.arcgis.com/RvlAuFejCI3bb9jt/arcgis/rest/services/Alerts/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=";
     let endpoint = "https://services8.arcgis.com/RvlAuFejCI3bb9jt/arcgis/rest/services/Events/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=";
@@ -83,7 +82,7 @@ var renderPlaces = function (places) {
     let minus = window.parent.document.getElementById('minus');
     let recycle = window.parent.document.getElementById('recycle');
     let info_board = window.parent.document.getElementById('infob');
-    title.innerHTML = `<h4>GeoAR - Events</h4>`;
+    title.innerHTML = `<h4>GeoAR-B2C</h4>`;
 
     places.forEach((place) => {
         const objectID = place.attributes.OBJECTID;
@@ -153,6 +152,7 @@ var renderPlaces = function (places) {
         var iconNum = TypeMode.index; //original it's equal to 0
         let maxIcon = Object.keys(icons).length;
 
+        /** Test only for recycle button, can help check each 3D model's texture */
         recycle.addEventListener("click", function () {
 
             iconNum += 1;
