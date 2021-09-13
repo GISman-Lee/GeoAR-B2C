@@ -13,7 +13,7 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *5. Defaultly, the listenting port is 3001, so browse https://localhost:3001, login with your App ID and remote AGOL/Portal* (see step 2's link)*</br>
 *6. Create a project or choose a template (see step 2's link), then on your left-hand side, you could see these two customised widgets are lying on the panel, then you could either drag or add these two customised widgets to your right-hand side content area to use them.* </br>
 *7. Please pay attention that you also need to set the **Map Component** for both of the widgets on the right-hand side setting panel before you launch and run the app.* </br>
-![Set Map Component](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb2.PNG)
+![Set Map Component](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb2.PNG)   ![Set Map Component2](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb1.PNG)</br>
 *8. When run and use the widgets, please make sure that use MyLayers Widget first and tick the Event_Layers before you use MyEvents Widget* </br>
 *9. If you feel it too complex to integrate these two customised widgets into ArcGIS Experience Builder Developer Edition, you could just download **GeoAR-B2C-Admin-Built-Compress.zip** and upzip it, then put it under any HTTP hosting, or run SimpleHTTPServer locally e.g. **```python -m SimpleHTTPServer 3001```**, then go to step 5.*</br>
 
@@ -31,4 +31,4 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 
 *In ar.html, the attributes in <a-camera>: gps-camera="gpsMinDistance: 10; gpsTimeInterval: 6000; maxDistance: 65;" is used to stablise the GPS, depending on your location's datum/projection system as well as your mobile phone GPS's senstivie(accuracy) you would need to adjust it for better result (gpsMinDistance, maxDistance unit in m, gpsTimeInterval unit in msec)*
 
-*The third button is for helping debugging only, but I still keep it there as you may like to use.* </br> ![Button for Debugging](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/recycle_button.PNG)
+*The third button is for helping debugging only, but I still keep it there as you may like to use.* ![Button for Debugging](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/recycle_button.PNG)
