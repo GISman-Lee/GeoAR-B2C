@@ -13,7 +13,7 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *5. Defaultly, the listenting port is 3001, so browse https://localhost:3001, login with your App ID and remote AGOL/Portal* (see step 2's link)*</br>
 *6. Create a project or choose a template (see step 2's link), then on your left-hand side, you could see these two customised widgets are lying on the panel, then you could either drag or add these two customised widgets to your right-hand side content area to use them.* </br>
 *7. Please pay attention that you also need to set the **Map Component** for both of the widgets on the right-hand side setting panel before you launch and run the app.* </br>
-![Set Map Component](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb2.PNG)   ![Set Map Component2](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb1.PNG)</br>
+![Set Map Component](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb2.PNG)   ![Set Map Component2](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/exb3.PNG)</br>
 *8. When run and use the widgets, please make sure that use MyLayers Widget first and tick the Event_Layers before you use MyEvents Widget* </br>
 *9. If you feel it too complex to integrate these two customised widgets into ArcGIS Experience Builder Developer Edition, you could just download **GeoAR-B2C-Admin-Built-Compress.zip** and upzip it, then put it under any HTTP hosting, or run SimpleHTTPServer locally e.g. **```python -m SimpleHTTPServer 3001```**, then go to step 5.*</br>
 
