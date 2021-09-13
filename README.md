@@ -29,3 +29,5 @@ GeoAR-B2C Events Solutions for Esri Hackathon 2021
 *When you use the App, please make sure that you are outdoor, your mobile phone/Ipad's GPS is turn on and your camera is allowed to be used by permission settings.* </br>
 
 *In ar.html, the attributes in <a-camera>: gps-camera="gpsMinDistance: 10; gpsTimeInterval: 6000; maxDistance: 65;" is used to stablise the GPS, depending on your location's datum/projection system as well as your mobile phone GPS's senstivie(accuracy) you would need to adjust it for better result (gpsMinDistance, maxDistance unit in m, gpsTimeInterval unit in msec)*
+
+*The third button is for helping debugging only, but I still keep it there as you may like to use.[Button for Test](https://ebaysmartfinder.s3.ap-southeast-2.amazonaws.com/Hackathon/TestButton.PNG)*
